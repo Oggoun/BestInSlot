@@ -3,7 +3,7 @@
 	<Include file="BestInSlotTutorialFrame.xml"/>
 	<Script file="Tutorials.lua"/>
 	<Script file="Manager.lua"/>
-	<Script file="RaidTierOverview.lua"/>
+	<!-- <Script file="RaidTierOverview.lua"/> -->
 	<Script file="CustomItems.lua"/>
 	<Script file="CustomLists.lua"/>
 	<Script file="RequestBestinslots.lua"/>
