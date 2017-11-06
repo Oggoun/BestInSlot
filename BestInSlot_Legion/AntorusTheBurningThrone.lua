@@ -123,14 +123,14 @@ function AntorusTheBurningThrone:OnEnable()
     152153, --Light's Vanguard Shoulderplates
     151984, --Lurid Grips of the Obscene
     152147, --Meditation Spheres of Chi'Ji
-	152171, --Pauldrons of Venerated Spirits
+    152171, --Pauldrons of Venerated Spirits
     152141, --Runebound Mantle
     152135, --Serpentstalker Mantle
     151971, --Sheath of Asara
     152029, --Shivarran Cachabon
     152165, --Shoulderpads of the Dashing Scoundrel
     152058, --Stormcaller's Fury
-	152284, --Zealous Tormentor's Ring
+    152284, --Zealous Tormentor's Ring
   }
   self:RegisterBossLoot(ATBT, lootTable, bossName)
   
@@ -145,7 +145,7 @@ function AntorusTheBurningThrone:OnEnable()
     152056, --Corrupting Dewclaw
     151974, --Eye of
     152021, --Flamelicked Girdle
-	152291, --Fraternal Fervor
+    152291, --Fraternal Fervor
     152027, --Gravitational Condensate
     151980, --Harness of Oppressing Dark
     152012, --Molten Bite Handguards
@@ -155,7 +155,7 @@ function AntorusTheBurningThrone:OnEnable()
     151949, --Soul-Siphon Mantle
     151947, --Vestments of Enflamed Blight
     151983, --Vicious Flamepaws
-	152059, --Whistling Ulna
+    152059, --Whistling Ulna
 
   }
   self:RegisterBossLoot(ATBT, lootTable, bossName)
@@ -171,7 +171,7 @@ function AntorusTheBurningThrone:OnEnable()
     151937, --Cloak of the Burning Vanguard
     151943, --Crown of Relentless Annihilation
     152031, --Doomfire Dynamo
-	152009, --Doomwalker Warboots
+    152009, --Doomwalker Warboots
     151951, --Enhanced Worldscorcher Cinch
     151956, --Garothi Feedback Conduit
     151998, --Heedless Eradication Gauntlets
@@ -196,7 +196,7 @@ function AntorusTheBurningThrone:OnEnable()
     152161, --Cloak of the Dashing Scoundrel
     152006, --Depraved Tactician's Waistguard
     152167, --Drape of Venerated Spirits
-	152113, --Dreadwake Greatcloak
+    152113, --Dreadwake Greatcloak
     152011, --Eredar Warcouncil Sabatons
     152293, --Fasces of the Endless Legions
     152119, --Felreaper Drape
@@ -206,17 +206,17 @@ function AntorusTheBurningThrone:OnEnable()
     152154, --Gilded Seraph's Drape
     152172, --Grim Inquisitor's Cloak
     151957, --Ishkar's Felshield Emitter
-	152179, --Juggernaut Cloak
+    152179, --Juggernaut Cloak
     152424, --Legwraps of the Seasoned Exterminator
     152149, --Light's Vanguard Greatcloak
     152043, --Lightshield Amplifier
     151953, --Man'ari Pyromancer Cuffs
-	152019, --Pauldrons of the Eternal Offensive
+    152019, --Pauldrons of the Eternal Offensive
     152136, --Runebound Cape
     152131, --Serpentstalker Drape
     152295, --Svirax's Grim Trophy
     151969, --Terminus Signaling Beacon
-	152032, --Twisted Engineer's Fel-Infuser
+    152032, --Twisted Engineer's Fel-Infuser
 
   }
   self:RegisterBossLoot(ATBT, lootTable, bossName)
@@ -232,7 +232,7 @@ function AntorusTheBurningThrone:OnEnable()
     152064, --Band of the Sargerite Smith
     152126, --Bearmantle Paws
     152048, --Decimator Crankshaft
-	152412, --Depraved Machinist's Footpads
+    152412, --Depraved Machinist's Footpads
     152114, --Dreadwake Gauntlets
     152051, --Eidolon of Life
     152120, --Felreaper Gloves
@@ -242,12 +242,12 @@ function AntorusTheBurningThrone:OnEnable()
     152168, --Gloves of Venerated Spirits
     152173, --Grim Inquisitor's Gloves
     152144, --Grips of Chi'Ji
-	152180, --Juggernaut Gauntlets
+    152180, --Juggernaut Gauntlets
     152055, --Kin'garoth's Oil-Sump
     152150, --Light's Vanguard Gauntlets
     151948, --Magma-Spattered Smock
     152034, --Obliterator Propellant
-	152137, --Runebound Gloves
+    152137, --Runebound Gloves
     152280, --Scalding Shatterguards
     152132, --Serpentstalker Grips
     152014, --Titan-Subjugator's Visage
@@ -266,7 +266,7 @@ function AntorusTheBurningThrone:OnEnable()
     151938, --Drape of the Spirited Hunt
     152116, --Dreadwake Legplates
     151967, --Electrostatic Lasso
-	152024, --Fallen Magi's Seerstone
+    152024, --Fallen Magi's Seerstone
     152122, --Felreaper Leggings
     152157, --Gilded Seraph's Leggings
     152175, --Grim Inquisitor's Leggings
@@ -276,12 +276,12 @@ function AntorusTheBurningThrone:OnEnable()
     152146, --Leggings of Chi'Ji
     152170, --Leggings of Venerated Spirits
     152152, --Light's Vanguard Legplates
-	152050, --Mysterious Petrified Egg
+    152050, --Mysterious Petrified Egg
     152164, --Pants of the Dashing Scoundre
     151999, --Preysnare Vicegrips
     152139, --Runebound Leggings
     152134, --Serpentstalker Legguards
-	152416, --Shoulderguards of Indomitable Purpose
+    152416, --Shoulderguards of Indomitable Purpose
     151944, --Soulhunter's Cowl
     151989, --Spaulders of the Relentless Tracker
     152045, --Venerated Puresoul Idol
@@ -301,7 +301,7 @@ function AntorusTheBurningThrone:OnEnable()
     152112, --Dreadwake Bonecage
     152061, --Droplets of the Cleansing Storm
     152118, --Felreaper Vest
-	152158, --Gilded Seraph's Robes
+    152158, --Gilded Seraph's Robes
     152176, --Grim Inquisitor's Robes
     152681, --Headdress of Living Brambles
     152013, --Helmet of the Hidden Sanctuary
@@ -311,12 +311,12 @@ function AntorusTheBurningThrone:OnEnable()
     152148, --Light's Vanguard Breastplate
     152688, --Loop of the Life-Binder
     152166, --Robes of Venerated Spirits
-	152140, --Runebound Tunic
+    152140, --Runebound Tunic
     152007, --Sash of the Gilded Rose
     152130, --Serpentstalker Tunic
     152044, --Spark of Everburning Light
     152142, --Tunic of Chi'Ji
-	152054, --Unwavering Soul Essence
+    152054, --Unwavering Soul Essence
     152023, --Vambraces of Life's Assurrance
     152160, --Vest of the Dashing Scoundrel
     151970, --Vitality Resonator
@@ -345,6 +345,20 @@ function AntorusTheBurningThrone:OnEnable()
     154175, --Eonar's Compassion
     154176, --Khaz'goroth's Courage
     154177, --Norgannon's Prowess
+    --Relics
+    155846, --Miniaturized Cosmic Beacon
+    155847, --Cruor of the Avenger
+    155848, --Condensed Blight Orb
+    155849, --Flickering Ember of Rage
+    155850, --Rime of the Spirit Realm
+    155851, --Reorigination Spark
+    155852, --Volatile Souls Fragment
+    155853, --Conch of the Thunderer
+    155854, --Root of the Lifebinder
+    155855, --Mote of the Forgemaster
+    --Special Items
+    155831, --Pantheon's Blessing
+
 
   }
   self:RegisterBossLoot(ATBT, lootTable, bossName)

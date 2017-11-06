@@ -3,8 +3,9 @@ local unpack, select, pairs, wipe, type, tContains, tinsert, tremove, tsort, tco
 =     unpack, select, pairs, wipe, type, tContains, table.insert, table.remove, table.sort, table.concat
 
 --WoW API
-local GetGuildInfo, GuildControlSetRank, GuildControlGetRankFlags, GetUnitName, GetItemInfoFromHyperlink, SendChatMessage, GetInventorySlotInfo, GetSpecializationInfo, GetChannelList, EnumerateServerChannels, IsInGroup, IsInGuild, UnitInRaid
-=     GetGuildInfo, GuildControlSetRank, GuildControlGetRankFlags, GetUnitName, GetItemInfoFromHyperlink, SendChatMessage, GetInventorySlotInfo, GetSpecializationInfo, GetChannelList, EnumerateServerChannels, IsInGroup, IsInGuild, UnitInRaid
+local GetGuildInfo, GuildControlGetRankFlags, GetUnitName, GetItemInfoFromHyperlink, SendChatMessage, GetInventorySlotInfo, GetSpecializationInfo, GetChannelList, EnumerateServerChannels, IsInGroup, IsInGuild, UnitInRaid
+=     GetGuildInfo, GuildControlGetRankFlags, GetUnitName, GetItemInfoFromHyperlink, SendChatMessage, GetInventorySlotInfo, GetSpecializationInfo, GetChannelList, EnumerateServerChannels, IsInGroup, IsInGuild, UnitInRaid
+
 local BestInSlot, L, AceGUI = unpack(select(2, ...))
 local Overview = BestInSlot:GetMenuPrototype(L["Overview"])
 local selectedReport, selectedChannel
@@ -26,7 +27,8 @@ Overview.Height = 600
 function Overview:IsOfficer()
   local rank = select(3, GetGuildInfo("player"))
   rank = rank + 1
-  GuildControlSetRank(rank)
+  -- GuildControlSetRank(rank) 
+  -- removed due to API changes in 7.3
   local officer = select(3, GuildControlGetRankFlags())
   return officer
 end

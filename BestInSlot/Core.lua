@@ -17,8 +17,8 @@ BestInSlot.unsafeIDs = {}
 BestInSlot.options = {}
 BestInSlot.defaultModuleState = false
 BestInSlot.options.DEBUG = false
-BestInSlot.Author = ("%s%s @ %s"):format("|c"..RAID_CLASS_COLORS.DEMONHUNTER.colorStr, "Beleria".."|r",ConvertRGBtoColorString(PLAYER_FACTION_COLORS[1]).."Argent Dawn-EU|r")
-BestInSlot.Authors = "Beleria @ Arget Dawn-EU. Fixed and upgraded to 7.3.2 by Oggoun @ Ragnaros EU"
+--BestInSlot.Author = ("%s%s @ %s"):format("|c"..RAID_CLASS_COLORS.DEMONHUNTER.colorStr, "Beleria".."|r",ConvertRGBtoColorString(PLAYER_FACTION_COLORS[1]).."Argent Dawn-EU|r")
+BestInSlot.Author = "Beleria @ Arget Dawn-EU, Oggoun @ Ragnaros EU"
 
 --@non-debug@ 
 BestInSlot.version = 450 
